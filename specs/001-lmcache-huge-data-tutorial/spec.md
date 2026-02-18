@@ -1,9 +1,5 @@
 # Feature Specification: LMCache Huge Data Access Tutorial
 
-**Feature Branch**: `001-lmcache-huge-data-tutorial`  
-**Created**: Friday, February 13, 2026  
-**Status**: Draft  
-**Input**: User description: "The goal of this tutorial is to use an inferencing engine which is integrated with lmcache is not just to create a working solution, but to demonstrate an architecture that is optimized for high-performance LLM serving. Specifically, the solution must be designed to maximize KV Cache hit rates and minimize Time to First Token (TTFT) when using a serving framework that supports Prefix Caching. The implementation must prove that you understand how KV Caching works at the inference level. * Prefix Alignment: You must structure your prompt templates so that the large \"Manual\" remains a fixed prefix. * Dynamic vs. Static Content: You must demonstrate where to place agent-specific instructions (e.g., \"You are the Compliance Auditor\") relative to the big number of token manual to avoid \"busting\" the cache. This tutorial must focus on the use case: Huge Data Access which is about Long context data access. The tutorial could be presented as a python notebook which can show all the above values of using lmcache. It should contain as well the graphical way of presenting the numbers of the above values as indications."
 
 ## User Scenarios & Testing *(mandatory)*
 
